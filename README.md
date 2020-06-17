@@ -1,4 +1,7 @@
 # Sentiment-analysis-of-movie-reviews-in-Chinese
+##### Installation
+Code can be run with Google Colab. Upload this repository to a folder named 'ML_Colab' in your Google drive. In the 'Data' folder, upload the data from the following [link](https://drive.google.com/file/d/102O0uHfhwE3wH2FRbFl60RAOl-OxiHRk/view?usp=sharing).
+
 ##### The Prepared Datasets
 <p align="justify">
 The data is collected from Douban Movie Short Comments Dataset V2 on Kaggle (Utmhikari, 2018). The data now has comments as the input and ratings from 1 to 5 are the labels. White space, punctuations, numbers, English alphabets, and stopwords are also removed from the text. Text is tokenized. Most of the comments are paired with ratings from 3 to 5, with ratings of 4 has the highest number, followed by ratings of 5 and ratings of 3. On the other hand, the ratings of 1 and 2 are much smaller in number, with less than 400,000 in total. The number of ratings of 3 is around 480,000. Ratings of 4 and 5 have around 1.2 million in total.
